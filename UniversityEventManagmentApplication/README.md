@@ -4,24 +4,6 @@
 * Springboot
 * Java
 
-## Project Summary
-* This is a SpringBoot-based project for managing Student and Events, with endpoints for adding, retrieving, updating, and deleting information.
-
-## Student attributes
-* studentId
-* firstName
-* lastName
-* age
-* department
-
-## Event attributes
-* eventId
-* eventName
-* locationOfEvent
-* date
-* startTime
-* endTime
-
 ## controller
 * StudentController
 * EventController
@@ -30,14 +12,28 @@
 * StudentService
 * EventService
 
-## Model
-* Student
-* Event
-
 ## Repository
 * StudentRepository
 * EventRepository
 * Used CrudRepository and Custom Query method
+
+## Models 
+## Student 
+ ### Student parameters
+* studentId
+* firstName
+* lastName
+* age
+* department
+
+## Event 
+### Event parameters
+* eventId
+* eventName
+* locationOfEvent
+* date
+* startTime
+* endTime
 
 ## Data Structure used
 * ArrayList
