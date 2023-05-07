@@ -21,5 +21,8 @@
 ## DataBase used:
 #### --> MySql
 
+## Mapping used:
+#### --> ONETOONE(Bidirectional)
+
 ## Project Summary
 ##### --> This is a SpringBoot based project uses Hibernate as ORM. It allows to perform the CRUD operations such as Adding a list odf employees with adress,updating,fetching data and Deleting data.   
